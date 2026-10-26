@@ -25,14 +25,4 @@ python evaluate.py
 - Optional Isolation Forest anomaly detection.
 - Precision, recall, and false-positive-rate evaluation.
 
-## Results
 
-On the bundled synthetic dataset:
-
-| Detector | Precision | Recall | False Positive Rate |
-|---|---:|---:|---:|
-| Rule-based | 100% | 100% | 0% |
-| Isolation Forest | 20% | 66.7% | 2% |
-| Combined | 27.3% | 100% | 2% |
-
-The results illustrate the tradeoff between precise, explainable rules and broader but noisier ML-based anomaly detection.
